@@ -1,0 +1,30 @@
+Example Test Cases
+Input 1:
+
+Code
+s = "([]{})"
+Output 1:
+
+Code
+6
+Explanation: The entire string is balanced.
+
+Input 2:
+
+Code
+s = "([)]"
+Output 2:
+
+Code
+2
+Explanation: The longest balanced substring is "()" or "[]".
+
+Input 3:
+
+Code
+s = "}{[()]}}"
+Output 3:
+
+Code
+6
+Explanation: The substring "[()]" plus {} gives length 6.
